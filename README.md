@@ -28,14 +28,16 @@ Our analysis is structured around the following steps:
 
 The results below shows how well our models are to predict customers returning to Olist. 
 
-The best model, model 3, uses numeric order variables (price, freight value, product weight etc.) and review comment messages converted to tf-idf representation. 
-
 
 | Model   | Variables                                             | Performance (F1-score) |
 |---------|-------------------------------------------------------|------------------------|
 | Model 1  | Numeric order variables                               | 69%                    |
 | Model 2 | Numeric order variables + Topics from topic modelling | 82%                    |
 | Model 3 | Numeric order variables + Single words                | 88%                    |
+
+
+The best model, model 3, uses numeric order variables (price, freight value, product weight etc.) and review comment messages converted to tf-idf representation. 
+
 
 
 ## Read more
